@@ -1,0 +1,15 @@
+C:\Users\Michael\Documents\Aplicada 1\Tarea1\Cap1\helloword\bin\Debug\net6.0\helloword.exe
+C:\Users\Michael\Documents\Aplicada 1\Tarea1\Cap1\helloword\bin\Debug\net6.0\helloword.deps.json
+C:\Users\Michael\Documents\Aplicada 1\Tarea1\Cap1\helloword\bin\Debug\net6.0\helloword.runtimeconfig.json
+C:\Users\Michael\Documents\Aplicada 1\Tarea1\Cap1\helloword\bin\Debug\net6.0\helloword.dll
+C:\Users\Michael\Documents\Aplicada 1\Tarea1\Cap1\helloword\bin\Debug\net6.0\ref\helloword.dll
+C:\Users\Michael\Documents\Aplicada 1\Tarea1\Cap1\helloword\bin\Debug\net6.0\helloword.pdb
+C:\Users\Michael\Documents\Aplicada 1\Tarea1\Cap1\helloword\obj\Debug\net6.0\helloword.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\Aplicada 1\Tarea1\Cap1\helloword\obj\Debug\net6.0\helloword.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael\Documents\Aplicada 1\Tarea1\Cap1\helloword\obj\Debug\net6.0\helloword.AssemblyInfoInputs.cache
+C:\Users\Michael\Documents\Aplicada 1\Tarea1\Cap1\helloword\obj\Debug\net6.0\helloword.AssemblyInfo.cs
+C:\Users\Michael\Documents\Aplicada 1\Tarea1\Cap1\helloword\obj\Debug\net6.0\helloword.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\Aplicada 1\Tarea1\Cap1\helloword\obj\Debug\net6.0\helloword.dll
+C:\Users\Michael\Documents\Aplicada 1\Tarea1\Cap1\helloword\obj\Debug\net6.0\ref\helloword.dll
+C:\Users\Michael\Documents\Aplicada 1\Tarea1\Cap1\helloword\obj\Debug\net6.0\helloword.pdb
+C:\Users\Michael\Documents\Aplicada 1\Tarea1\Cap1\helloword\obj\Debug\net6.0\helloword.genruntimeconfig.cache

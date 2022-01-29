@@ -10,4 +10,4 @@ namespace Ejercicio2{
         public int pot {get; set;}
 
         }
-    }
+    }   

@@ -10,6 +10,8 @@
     <StackPanel Margin ="16" Orientation ="Vertical">
         <TextBlock Text="Ingresa un numero: " FontSize= "16"/>
         <TextBox x:Name= "NumTextBox" Text="" />
+        <TextBlock Text="El Numero convertido es: " />
+        <TextBox x:Name= "NumeroConvertido" Text=""/>
  
         <StackPanel
         Margin = "0,16,0,0"

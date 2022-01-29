@@ -22,33 +22,19 @@ namespace Ejercicio5
     /// </summary>
     public partial class MainWindow : Window
     {
+        private object texto;
+
         public MainWindow()
         {
             InitializeComponent();
         }
 
         
-     private void CalcularButton_Click(object sender, RoutedEventArgs e)
+     
+
+         public void Main(double numero)
         {
-            Cadena cad= new Cadena(NumTextBox.Text);
-
-          var paso = CadenaBLL.Calcular(cad);
-
-          if (paso)
-          {
-             string num,convertido =" ";
-            double numero;
-
-            Console.Write("Digite el numero a convertir: ");
-            num = Console.ReadLine();
-            numero = Convert.ToDouble(num);
-            convertido = convertir(numero);
-
-            Console.WriteLine("El numero {0} convertido a letras es: {1}", numero, convertido);
-        }
-
-         static string convertir(double numero)
-        {
+            
             string texto = "";
 
             numero = Math.Truncate(numero);
@@ -85,37 +71,25 @@ namespace Ejercicio5
                 texto = "CATORCE";
             else if (numero == 15)
                 texto = "QUINCE";
-            else if (numero < 20)
-                texto = "DIECI" + (numero - 10).ToString();
-            else if (numero == 20)
-                texto = "VEINTE";
-            else if (numero < 30)
-                texto = "VEINTI" + (numero - 20).ToString();
-            else if (numero == 30)
-                texto = "TREINTA";
-            else if (numero == 40)
-                texto = "CUARENTA";
-            else if (numero == 50)
-                texto = "CINCUENTA";
-            else if (numero == 60)
-                texto = "SESENTA";
-            else if (numero == 70)
-                texto = "SETENTA";
-            else if (numero == 80)
-                texto = "OCHENTA";
-            else if (numero == 90)
-                texto = "NOVENTA";
+      
+        
+             
+               
+        }
+        private void CalcularButton_Click(object sender, RoutedEventArgs e)
+        {
+          
+            string num;
+            double numero;
+          
+            num = Convert.ToString(NumTextBox.Text); //Numero a convertir
+            numero = Convert.ToDouble(num);
 
-            else if (numero < 100)
-                texto = (Math.Truncate(numero / 10) * 10).ToString() + " Y " + (numero % 10).ToString();
-            else if (numero == 100)
-                texto = "CIEN";
-            else if (numero < 200)
-                texto = "CIENTO " + (numero - 100).ToString();
-            else if ((numero == 200) || (numero == 300) || (numero == 400) || (numero == 600) || (numero == 800))
-                texto = (Math.Truncate(numero / 100)).ToString() + "CIENTOS";
+            texto = Convert.ToString(NumeroConvertido.Text);
+            
+            NumeroConvertido.Text = texto.ToString();
+        }
 
-            return texto;
-    }   }
-}
-}
+
+    }
+    }

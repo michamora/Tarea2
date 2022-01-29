@@ -5,11 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Ejercicio4"
         mc:Ignorable="d"
-        Title="Factorial" Height="200" Width="350">
+        Title="Factorial" Height="200" Width="240">
     <Grid>
     <StackPanel Margin ="16" Orientation ="Vertical">
         <TextBlock Text="Ingresa un numero: " FontSize= "16"/>
         <TextBox x:Name= "NumeroTextBox" Text="" />
+        <TextBlock Text="El Factorial es: "/>
+        <TextBox x:Name= "Factorial" Text="" />
 
         <StackPanel
         Margin = "0,16,0,0"

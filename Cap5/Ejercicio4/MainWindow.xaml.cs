@@ -35,44 +35,20 @@ namespace Ejercicio4
         }
      private void CalcularButton_Click(object sender, RoutedEventArgs e)
         {
-            Factorial fac = new Factorial(NumeroTextBox.Text);
+           int fac=1,x,n;
+            string num;
+            x = 1;
 
-          var paso = FactorialBLL.Calcular(fac);
+            num = (NumeroTextBox.Text);
 
-          if (paso)
-          {
-              Calcular();
-           String numero;
-            int num,resultado = 0;
-
-            Console.WriteLine("Introduzca el Numero: ");
-            numero = Console.ReadLine();
-
-            num = Convert.ToInt32(numero);
-
-            resultado = Factorial(num);
-
-            Console.WriteLine("Resultado: {0}", resultado);
-        }
-
-        static int Factorial(int a)
-        {
-            int numi = 1, numf = 2, i = 1;
-
-            do
+            n = int.Parse(num);
+            while (x <= n)
             {
-
-                numi = numi * numf;
-                numf = numf + 1;
-                i++;
-    
-
-        } while (i < a);
-
-            return  numi;
-
-        }
-      
+                fac = fac * x;
+                x = x + 1;
+            }
+            Factorial.Text = fac.ToString();
+            
         }
     }
 }

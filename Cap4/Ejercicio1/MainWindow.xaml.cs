@@ -29,28 +29,26 @@ namespace Ejercicio1
 
         }
          private void CalcularButton_Click(object sender, RoutedEventArgs e)
-            {
-                 Tabla tab = new Tabla(NumeroTextBox.Text);
-
-                 var paso = TablaBLL.Calcular(tab);
-            if (paso)
+            
             {
            
-            int n=0, r;
-            string teclado;
+            int n = int.Parse(NumeroTextBox.Text);
+            int r;
+            
             
             //proceso
             for (int x = 1; x <= 10; x++)
             {
                 r = n * x;
-                MessageBox.Show(n + "=" + x + "=" + r);
+                Tabla2.Items.Add($"Resultado {n} x {x} = "+ r);
+                
             }
           
       
         }
     }
     }
-}
+
 
              
         

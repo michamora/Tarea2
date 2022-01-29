@@ -5,11 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Ejercicio1"
         mc:Ignorable="d"
-        Title="Tabla de multiplicar" Height="700" Width="500">
+        Title="Tabla de multiplicar" Height="500" Width="490">
     <Grid>
         <StackPanel Margin ="16" Orientation ="Vertical">
-        <TextBlock Text="Ingresa el numero de la tabla: " FontSize= "16"/>
-        <TextBox x:Name= "NumeroTextBox" Text="" />
+        <TextBlock Text="Ingresa el numero de la tabla: " Margin ="0,3,0,0" FontSize= "16"/>
+        <TextBox x:Name= "NumeroTextBox" Margin ="38,3,5,5" Height="20" Width="40" />
+        <ListBox x:Name= "Tabla2" Margin ="35,30,0,0" Height="300" Width="200" />
         
 
         <StackPanel

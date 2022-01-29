@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+   
 //Ejercicio4 Cap5 - Factorial de un numero
 
 namespace Ejercicio4

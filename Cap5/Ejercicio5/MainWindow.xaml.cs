@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+  
 //Ejercicio 5 cap 5- Cadena de un numero escrito en palabras
 
 namespace Ejercicio5

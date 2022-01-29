@@ -28,29 +28,19 @@ namespace Ejercicio2
         }
         private void CalcularButton_Click(object sender, RoutedEventArgs e)
         {
-            Numero num = new Numero(NumeroTextBox.Text);
+        
+        double num, pot, result;
+        
+        num = Convert.ToDouble(NumeroTextBox.Text);
+        pot = Convert.ToDouble(PotenciaTextBox.Text);
+        
+        result = Math.Pow(num, pot);
 
-            var paso = NumeroBLL.Calcular(num);
-            if (paso)
-            {
-               double nume, pot, resultado;
-
-            Console.WriteLine("Introduce el numero que deseas elevar:");
-            nume = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("Introduce el numero de la potencia a elevar:");
-            pot = Convert.ToDouble(Console.ReadLine());
-
-            //proceso
-
-            resultado = Math.Pow(nume, pot);
-
-            Console.WriteLine("El resultado es:" + resultado);
-
-            Console.ReadKey();
+        Resultado.Text = result.ToString();        
+            
+                
             }
-            else 
-            MessageBox.Show("Error");
+            
         }
-    }
 }
+        

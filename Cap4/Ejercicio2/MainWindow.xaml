@@ -5,15 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Ejercicio2"
         mc:Ignorable="d"
-        Title="Elevar numero a cualquier potencia" Height="450" Width="800">
+        Title="Elevar numero a cualquier potencia" Height="300" Width="170">
     <Grid>
     <StackPanel Margin ="16" Orientation ="Vertical">
  
 
- <TextBlock Text="Numero: "/>
- <TextBox x:Name= "NumeroTextBox" Text="" />
- <TextBlock Text="Potencia: "/>
- <TextBox x:Name= "PotenciaTextBox" Text="" />
+ <TextBlock Text="Numero "/>
+ <TextBox x:Name= "NumeroTextBox" Text=""  />
+ <TextBlock Text="Potencia "/>
+ <TextBox x:Name= "PotenciaTextBox" />
+ <TextBlock Text="Numero Elevado: "/>
+ <TextBox x:Name= "Resultado" Text=""  />
 
  <StackPanel 
         Margin = "0,16,0,0"
